@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+  <body>
+    {% include sidebar.html %}
+  <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a class="header-logo-invertocat" title="Welcome!" href="{{ site.baseurl }}/">
+            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+              {{ site.title }}
+            </a>
+            
+            <small>&nbsp;{{ site.tagline }}</small>
+
+            <div class="headicons">
+                <small><a href="/about/" title="About"><i class="iconm iconm-user"></i></a></small>
+                <small><a href="/books/" title="Books"><i class="iconm iconm-quill"></i></a></small>
+                <small><a href="/archive/" title="Codes"><i class="iconm iconm-embed2"></i></a></small>
+                <small><a href="http://weibo.com/u/6035048806" rel="me" title="Weibo" target="_blank"><i class="iconm iconm-sina-weibo"></i></a></small>
+                <small><a href="https://love.mocun.me" title="Like" target="_blank"><i class="iconm iconm-heart footer_v2__loveheart"></i></a></small>
+            </div>              
+          </h3>
+        </div>
+      </div>
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+    
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <!-- jQuery FIRST i.e. before qTip (and all other scripts too usually) -->
+    <script type="text/javascript" src="https://paypal.b0.upaiyun.com/public/js/jquery/jquery-1.12.4.min.js"></script>
+
+    <script type="text/javascript" src="https://paypal.b0.upaiyun.com/public/js/qTips/jquery.qtip.min.js"></script>
+    <script type="text/javascript" src="https://paypal.b0.upaiyun.com/public/js/qTips/qtips.io.js"></script>
+    
+    <!-- Photoswipe Core JS file -->
+    <script src="https://paypal.b0.upaiyun.com/public/js/photoswipe/photoswipe.min.js"></script>
+    <script src="https://paypal.b0.upaiyun.com/public/js/photoswipe/photoswipe-ui-default.min.js"></script>
+    <script src="https://paypal.b0.upaiyun.com/public/js/photoswipe/pswp.io.js"></script>
+    <script src="https://paypal.b0.upaiyun.com/public/js/emojify/emojify.min.js"></script>
+    <script>
+      emojify.run()
+    </script>  
+    
+    <script src="https://paypal.b0.upaiyun.com/public/js/aplayer/aplayer.min.js"></script>
+    <script src="https://paypal.b0.upaiyun.com/public/js/prettify/prettify.js"></script>
+    <script type="text/javascript">
+    	window.prettyPrint && window.prettyPrint()
+    </script>
+
+  	<script>
+  	POWERMODE.colorful = true; // make power mode colorful
+  	POWERMODE.shake = false; // turn off shake
+  	document.body.addEventListener('input', POWERMODE);
+  	</script> 
+    {% include duoshuo_ua.html %}
+    {% include statistics.html %}
+	</body>
+</html>

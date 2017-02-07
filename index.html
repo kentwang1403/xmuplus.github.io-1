@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+{% include imgtop.html %}
+<hr style="margin-top: -1rem; border-top: 1px solid #e1e1e1;" />
+
+	<p class="news"><span style="color: #bf616a; font-weight: bold">New!</span> <a href="/the-first-half-of-2016/">The collection of <i>The Economist</i> 2016</a></p>
+
+<style type="text/css">
+	.news {
+		font-size: 14px;
+	}
+</style>
+
+<hr style="margin-top: 1rem; border-top: 1px solid #e1e1e1;" />
+
+<!--
+    <a href="http://xmuplus.me/like.html" target="_blank">
+	<div class='like-vote'>
+		<p class='like-title'>Do you like me?</p>
+		<div class='like-count'>
+			<i class="fa fa-heart"></i>
+		</div>
+	</div>
+	</a>
+	-->
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }}</span>
+
+    {{ post.excerpt }}
+
+    <!--Jekyll "Read more" Link-->
+    {% if post.excerpt != post.content %}
+        <p><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-facebook-square" aria-hidden="true"></i>ree Download</a></p>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+</div>
+
+{% include pagination.html %}
