@@ -20,7 +20,7 @@ permalink: /current-issue/
 
     <br/><br/>If you liked my work, please <a title="Thanks for your support!" href="/donate/"><i><code>Dona<i class="fa fa-tumblr-square"></i>e</code></i></a> to buy me a coffee. 
 
-	A single click on <a title="Like" href="http://xmuplus.me/like.html" target="_blank"><code><b><i class="fa fa-heart footer_v2__loveheart"></i></b></code></a> is also appreciated. Enjoy! :smiley:
+	A single click on <a title="Like" href="https://love.mocun.me" target="_blank"><code><b><i class="fa fa-heart footer_v2__loveheart"></i></b></code></a> is also appreciated. Enjoy! :smiley:
 </p>
 <style>
 .emoji{
