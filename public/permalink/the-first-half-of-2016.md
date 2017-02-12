@@ -103,7 +103,5 @@ A10: 不会。从8月9号开始，杂志的 pdf、epub、mobi 都是免费分享
 
 
 <!--Comments-->
-<div id="comments">
 {% include comments.html %}
-</div>
 {% include footer.html %}

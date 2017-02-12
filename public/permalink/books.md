@@ -7,6 +7,10 @@ permalink: /books/
 
 ### <span style="color:#4885ed">2</span><span style="color:#3cba54">0</span><span style="color:#4885ed">1</span><span style="color:#db3236">7</span>
 
+* Feb 12 - 『1973年的弹子球』 <span class="author">- 村上 春樹</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+
+* Feb 11 - 『论美国的民主』<span class="juan">上卷</span> <span class="author">- Alexis de Tocqueville</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+
 * Feb 03 - 『且听风吟』 <span class="author">- 村上 春樹</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 
 * Feb 01 - 『国境以南太阳以西』 <span class="author">- 村上 春樹</span> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>

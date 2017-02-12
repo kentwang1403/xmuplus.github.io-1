@@ -8,6 +8,8 @@ permalink: /changelog/
 
 ### 2017
 
+* Feb 10 - Host <span class="qtip2"><span style="color:#4885ed">G</span><span style="color:#db3236">o</span><span style="color:#f4c20d">o</span><span style="color:#4885ed">g</span><span style="color:#3cba54">l</span><span style="color:#db3236">e</span> Fonts</span> locally.
+
 * Jan 21 - Serve static files such as images, css files, and javascript files in [upyun](https://www.upyun.com/index.html).
 
 * Jan 09 - Fix some bugs.
