@@ -853,7 +853,7 @@ a.pagination-step, span.pagination-step {
     padding: 6px 0;
     border-bottom: 1px solid #ccc;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
-    font-size: 1.075rem;
+    font-size: 1.025rem;
     line-height: 1.33333;
     margin-bottom: 0
 }
@@ -864,7 +864,7 @@ a.pagination-step, span.pagination-step {
     float: right
 }
 .post-list .entry-date {
-    font-size: .815rem;
+    font-size: .805rem;
     line-height: 1.71429;
     margin-bottom: 0;
     text-transform: uppercase;
