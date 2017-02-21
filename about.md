@@ -43,7 +43,7 @@ Hope you enjoy&nbsp;! :stuck_out_tongue_closed_eyes:
 
 <style>
 body {
-    font-family: Times, Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+    font-family: Times, Helvetica, Tahoma, Arial, STXihei, SimSun, Heiti, sans-serif;
 }
 span.fa-color{
      color: #268bd2;	
