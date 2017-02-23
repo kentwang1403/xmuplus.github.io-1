@@ -3,9 +3,8 @@ layout: page
 title: About  
 permalink: /about/
 ---
-<!--sidebar调用这个title: About-->
 <style>
-	.page{
+  .page{
     margin-top: 3em;  /*About title*/
 }
   .page-title{
@@ -62,6 +61,6 @@ span.fa-color{
   color:#FF4D4D;
 }
 .fa.fa-heart:hover {
-    color: #D93636
+  color: #D93636
 }
 </style>
